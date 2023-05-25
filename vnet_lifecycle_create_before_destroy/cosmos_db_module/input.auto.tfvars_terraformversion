@@ -1,0 +1,10 @@
+common_tags = {
+  "business_unit" = "hr"
+  "environment" = "dev"
+}
+capabilities_list=["EnableAggregationPipeline","mongoEnableDocLevelTTL","MongoDBv3.4","EnableMongo"]
+resoure_group_name = "myrg"
+resoure_group_location = "eastus"
+azurerm_cosmosdb_account_name = "djangotangodb"
+azurerm_cosmosdb_account_offertype= "Standard"
+azurerm_cosmosdb_account_kind="MongoDB"
